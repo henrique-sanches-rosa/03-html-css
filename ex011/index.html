@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagem e Áudio!</h1>
+    <h2>Imagem dinâmica!</h2>
+    <p>Aumente e diminua o navegador!</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/journey-300.png" sizes="image/png">  
+        <source media="(max-width: 1050px)" srcset="imagens/journey-650.png" sizes="image/png">
+        <img src="imagens/journey-1000.png" alt="Imagem do jogo Jouney em alta resolução">
+    </picture>
+    <h2>Áudio!</h2>
+    <p>Adicionando áudio ao site!</p>
+    <audio preload="metadata" controls loop>
+        <source src="audio/bach-cello-suite.mp3" type="audio/mpeg">
+        <source src="audio/bach-cello-suite.ogg" type="audio/ogg">
+        <source src="audio/bach-cello-suite.wav" type="audio/wav">
+        <p>Infelizmente não foi possível carregar o áudio.<a href="audio/bach-cello-suite.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h1>Um vídeo vai bem!</h1>
+    <video width="300" poster="imagens/capa-video.png" controls>
+        <source src="videos/video-flor-vimeo.m4v" type="video/mp4">
+        <source src="videos/video-flor-ogv.ogg" type="video/ogv">
+        <source src="videos/video-flor.mp4" type="video/mp4">
+        <p>Seu navegador não é compatível com o vídeo!</p>
+    </video>
+    <h2>Vídeo do youtube!</h2> <!--mais barato e não consome dados do navegador-->
+    <iframe width="450" height="253.125" src="https://www.youtube.com/embed/i9k2OCJk81M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

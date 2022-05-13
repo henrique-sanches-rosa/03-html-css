@@ -1,0 +1,81 @@
+@charset "utf8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to bottom, #B049CC, #B500E6, #843799, #421C4D);
+}
+main{
+    background-color: #6743D9;
+    border: solid black;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 8px black;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #B049CC;
+}
+h2{
+    text-align: left;
+    margin-left: 20px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+}
+#insta{
+    background-color: white;
+    border: solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+    width: 100px;
+}
+#insta:hover{
+    background-color: #B500E6;
+    color: yellow;
+}
+#links{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 240px;
+    margin-left: 20px;
+    background-color: #B049CC;
+    box-shadow: 4px 4px 4px;
+}
+div > p#mensagem{
+    display: none;
+}
+div:hover > p#mensagem{
+    display: block;
+    margin: 0px;
+    padding: 0px 5px 5px 0px;
+    color: #b7f054;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+li:hover{
+    color: #d4980b;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: #CCAB5E;
+}
+a:active{
+    color: rgba(255, 4, 4, 0.658);
+}
+a:hover{
+    text-decoration: underline;
+}
+#chain::after{
+    content: ' 🔗';
+}
