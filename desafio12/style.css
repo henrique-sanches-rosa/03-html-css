@@ -7,20 +7,64 @@
     margin: 0px;
     padding: 0px;
 }
-
+html, body{
+    min-height: 100vh;
+}
 header{
     text-align: center;
     background-color: black;
     color: white;
-    height: 270px;
     max-width: 100%;
 }
 header > h1{
     font-family: 'Passion One', 'cursive';
-    padding-top: 60px;
-    font-size: 6em;
+    padding-top: 50px;
+    font-size: 10vw;
+    font-variant: small-caps;
 }
-.inline{
-    display: inline;
-    font-size: 1.4em;
+header > p{
+    font-family: Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 2.8vh;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+article pre{
+    font-family: 'Sriracha', 'cursive';
+    font-size: 3.5vw;
+    margin-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+.fundo{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+#fundo1{
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 110vh;
+}
+#fundo2{
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 110vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 1.5vw;
+    padding: 10px;
 }
