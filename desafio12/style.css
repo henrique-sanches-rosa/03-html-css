@@ -36,7 +36,7 @@ header a, footer a{
 a:hover{
     text-decoration: underline;
 }
-article pre{
+main section p{
     font-family: 'Sriracha', 'cursive';
     font-size: 3.5vw;
     margin-left: 30px;
@@ -44,23 +44,27 @@ article pre{
     padding-bottom: 10vh;
     line-height: 2em;
 }
-.fundo{
+.img{
     color: white;
     display: inline-block;
     padding: 5px;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.445);
     text-shadow: 2px 2px 0px black;
+    margin: 50px 0px;
 }
-#fundo1{
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+#img1{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
-    height: 110vh;
+    max-height: 200vh;
+    max-width: 100%;
     box-shadow: inset 6px 6px 13px rgb(0, 0, 0, 0.800);
 }
-#fundo2{
-    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+#img2{
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
-    height: 110vh;
+    max-height: 200vh;
+    max-width: 100%;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.800);
 }
 footer{
